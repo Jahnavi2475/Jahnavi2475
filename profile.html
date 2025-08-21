@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            padding: 50px;
+            background-color: #f9f9f9;
+            align-items: center;
+        }
+        .profile-img {
+            margin-right: 50px;
+        }
+        .profile-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+        .info {
+            font-size: 18px;
+            line-height: 2;
+        }
+        .info b {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Profile</h1>
+        <div>
+            <a href="#">Login</a>
+            <a href="#">Signup</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-img">
+            <img src="profile.jpg" alt="Profile Image">
+        </div>
+        <div class="info">
+            <p><b>Name:</b> Sridevi</p>
+            <p><b>Regd. No:</b> 2200100006</p>
+            <p><b>Department:</b> Computer Science</p>
+            <p><b>Email:</b> sridevi@example.com</p>
+            <p><b>Contact:</b> +91-9876543210</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 All Rights Reserved
+        <div class="social-icons">
+            <a href="#">&#xf09a;</a> <!-- Facebook -->
+            <a href="#">&#xf099;</a> <!-- Twitter -->
+            <a href="#">&#xf1d7;</a> <!-- WhatsApp -->
+            <a href="#">&#xf16d;</a> <!-- Instagram -->
+        </div>
+    </footer>
+
+</body>
+</html>
